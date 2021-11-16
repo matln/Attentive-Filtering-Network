@@ -1,0 +1,924 @@
+# compute-spectrogram-feats --verbose=2 --config=conf/spec.conf scp,p:exp/make_spec/wav.10.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_eval_spec.10.ark,/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_eval_spec.10.scp 
+# Started at Sat Jan 18 14:02:14 CST 2020
+#
+copy-feats --compress=true ark:- ark,scp:/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_eval_spec.10.ark,/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_eval_spec.10.scp 
+compute-spectrogram-feats --verbose=2 --config=conf/spec.conf scp,p:exp/make_spec/wav.10.scp ark:- 
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007161
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007162
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007163
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007165
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007166
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007167
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007168
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007169
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007170
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 10 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007172
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007173
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007174
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007175
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007177
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007178
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007179
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007180
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007182
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007183
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 20 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007184
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007185
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007186
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007187
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007188
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007189
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007190
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007191
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007192
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007193
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 30 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007194
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007195
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007196
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007198
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007199
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007200
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007201
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007202
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007203
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007204
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 40 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007206
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007207
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007208
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007209
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007210
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007211
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007212
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007213
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007214
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007215
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 50 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007216
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007217
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007218
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007219
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007220
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007222
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007223
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007224
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007226
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007227
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 60 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007228
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007229
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007230
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007231
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007232
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007233
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007235
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007237
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007238
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007239
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 70 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007241
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007242
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007243
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007246
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007247
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007248
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007249
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007250
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007251
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007252
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 80 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007253
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007254
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007255
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007256
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007258
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007259
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007260
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007261
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007262
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007263
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 90 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007264
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007265
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007266
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007267
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007268
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007269
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007270
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007271
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007272
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007273
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 100 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007274
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007275
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007276
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007277
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007278
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007279
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007280
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007281
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007282
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007283
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 110 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007284
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007285
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007286
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007287
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007288
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007290
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007291
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007292
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007293
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007294
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 120 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007295
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007296
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007297
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007298
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007299
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007300
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007301
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007302
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007303
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007304
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 130 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007305
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007306
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007307
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007308
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007309
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007310
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007311
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007312
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007313
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007315
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 140 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007316
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007317
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007318
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007319
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007320
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007321
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007323
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007324
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007325
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007326
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 150 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007327
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007328
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007329
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007330
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007331
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007332
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007333
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007334
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007335
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007336
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 160 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007338
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007339
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007340
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007341
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007342
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007343
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007344
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007345
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007346
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007347
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 170 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007348
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007349
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007350
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007351
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007354
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007355
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007356
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007357
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007358
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007359
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 180 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007361
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007362
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007363
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007364
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007366
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007367
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007368
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007369
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007370
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007371
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 190 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007372
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007373
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007374
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007375
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007376
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007377
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007378
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007379
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007380
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007381
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 200 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007382
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007384
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007385
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007386
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007387
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007388
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007389
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007390
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007391
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007392
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 210 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007393
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007394
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007395
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007396
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007397
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007398
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007399
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007400
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007401
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007402
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 220 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007403
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007404
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007405
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007406
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007407
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007408
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007409
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007410
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007411
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007412
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 230 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007413
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007415
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007416
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007417
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007418
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007423
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007424
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007425
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007426
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007427
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 240 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007428
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007429
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007431
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007432
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007434
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007435
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007436
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007437
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007438
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007439
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 250 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007441
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007442
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007443
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007444
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007446
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007447
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007449
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007450
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007451
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007453
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 260 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007454
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007455
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007456
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007457
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007458
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007460
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007461
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007462
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007463
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007464
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 270 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007465
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007467
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007468
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007469
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007470
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007471
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007472
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007473
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007474
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007475
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 280 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007476
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007477
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007478
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007479
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007480
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007481
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007482
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007484
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007485
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007486
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 290 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007487
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007488
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007490
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007491
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007492
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007493
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007495
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007496
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007498
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007501
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 300 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007502
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007503
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007504
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007505
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007506
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007507
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007508
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007509
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007511
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007512
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 310 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007513
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007514
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007516
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007517
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007518
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007519
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007520
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007521
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007522
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007523
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 320 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007524
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007525
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007526
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007527
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007528
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007529
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007530
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007531
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007532
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007533
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 330 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007535
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007536
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007537
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007538
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007539
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007541
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007542
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007544
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007545
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007546
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 340 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007547
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007548
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007549
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007550
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007551
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007552
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007554
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007556
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007557
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007559
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 350 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007561
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007562
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007563
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007565
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007566
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007567
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007568
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007569
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007570
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007571
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 360 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007572
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007573
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007574
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007575
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007576
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007578
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007580
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007581
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007582
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007583
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 370 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007584
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007585
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007586
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007588
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007589
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007591
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007592
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007593
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007594
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007595
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 380 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007596
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007597
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007598
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007599
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007600
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007601
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007602
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007603
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007604
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007605
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 390 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007606
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007607
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007608
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007609
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007610
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007611
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007612
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007613
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007615
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007617
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 400 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007618
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007619
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007620
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007621
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007622
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007624
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007625
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007626
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007627
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007628
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 410 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007630
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007631
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007633
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007634
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007635
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007637
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007638
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007640
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007642
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007643
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 420 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007644
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007645
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007646
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007647
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007648
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007649
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007650
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007651
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007653
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007654
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 430 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007655
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007657
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007658
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007659
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007660
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007662
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007663
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007664
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007665
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007666
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 440 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007667
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007668
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007669
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007670
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007671
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007672
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007673
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007674
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007675
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007676
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 450 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007677
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007678
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007679
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007680
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007681
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007682
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007683
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007684
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007685
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007686
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 460 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007687
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007688
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007689
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007690
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007691
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007692
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007693
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007694
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007695
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007696
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 470 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007697
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007698
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007700
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007701
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007702
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007703
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007705
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007706
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007708
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007710
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 480 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007711
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007712
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007713
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007714
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007715
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007716
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007718
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007719
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007720
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007722
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 490 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007723
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007724
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007725
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007726
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007727
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007728
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007729
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007730
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007731
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007732
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 500 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007733
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007734
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007735
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007736
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007737
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007738
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007739
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007740
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007741
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007742
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 510 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007743
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007744
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007746
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007747
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007748
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007749
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007751
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007752
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007753
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007756
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 520 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007757
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007759
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007760
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007762
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007763
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007764
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007765
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007766
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007767
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007769
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 530 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007770
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007771
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007772
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007773
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007774
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007775
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007776
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007777
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007778
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007779
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 540 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007780
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007781
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007782
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007783
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007785
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007787
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007789
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007790
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007791
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007794
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 550 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007795
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007796
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007798
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007799
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007800
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007801
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007802
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007803
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007804
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007805
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 560 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007806
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007807
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007808
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007809
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007810
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007811
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007812
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007813
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007814
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007815
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 570 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007816
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007818
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007819
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007820
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007821
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007822
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007823
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007824
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007825
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007826
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 580 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007827
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007830
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007831
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007832
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007833
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007834
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007835
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007836
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007837
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007839
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 590 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007841
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007842
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007843
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007844
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007845
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007846
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007847
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007848
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007849
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007850
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 600 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007851
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007852
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007853
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007854
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007855
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007856
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007857
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007859
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007860
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007861
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 610 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007862
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007863
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007864
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007865
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007867
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007868
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007869
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007870
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007871
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007872
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 620 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007873
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007874
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007876
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007878
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007879
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007880
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007881
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007882
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007883
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007884
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 630 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007885
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007886
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007887
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007888
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007890
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007891
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007892
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007893
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007894
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007895
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 640 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007897
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007899
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007900
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007901
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007902
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007903
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007904
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007905
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007906
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007907
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 650 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007909
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007910
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007911
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007912
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007914
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007915
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007916
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007917
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007918
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007920
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 660 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007921
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007922
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007923
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007924
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007925
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007926
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007927
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007928
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007929
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007930
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 670 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007931
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007933
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007934
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007935
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007936
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007937
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007938
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007939
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007940
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007941
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 680 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007942
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007944
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007945
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007946
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007947
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007948
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007949
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007950
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007954
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007955
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 690 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007956
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007957
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007958
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007959
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007962
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007963
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007964
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007965
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007966
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007967
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 700 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007969
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007971
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007972
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007973
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007974
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007976
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007978
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007979
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007980
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007981
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 710 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007982
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007983
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007984
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007985
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007986
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007987
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007988
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007989
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007990
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007991
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 720 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007992
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007993
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007994
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007995
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007996
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007997
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007998
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1007999
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008000
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008001
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 730 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008002
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008003
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008004
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008005
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008006
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008007
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008008
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008009
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008010
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008012
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 740 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008013
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008014
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008015
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008016
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008017
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008018
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008020
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008021
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008022
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008023
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 750 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008024
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008025
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008026
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008027
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008028
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008029
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008030
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008031
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008033
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008034
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 760 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008035
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008036
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008037
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008038
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008039
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008040
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008041
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008042
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008043
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008044
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 770 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008045
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008046
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008047
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008048
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008049
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008050
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008051
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008052
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008053
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008054
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 780 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008055
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008056
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008057
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008058
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008059
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008061
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008062
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008063
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008064
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008065
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 790 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008067
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008068
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008069
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008070
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008071
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008072
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008074
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008075
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008076
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008077
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 800 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008078
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008079
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008080
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008081
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008082
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008083
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008084
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008085
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008086
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008087
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 810 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008088
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008089
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008090
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008091
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008092
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008093
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008094
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008095
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008096
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008097
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 820 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008098
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008099
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008100
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008101
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008102
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008105
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008106
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008107
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008108
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008109
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 830 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008110
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008111
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key spoof-E_1008112
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:157)  Done 832 out of 832 utterances.
+LOG (copy-feats[5.5.536~1-eb836]:main():copy-feats.cc:143) Copied 832 feature matrices.
+# Accounting: time=16 threads=1
+# Ended (code 0) at Sat Jan 18 14:02:30 CST 2020, elapsed time 16 seconds

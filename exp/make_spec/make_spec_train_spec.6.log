@@ -1,0 +1,216 @@
+# compute-spectrogram-feats --verbose=2 --config=conf/spec.conf scp,p:exp/make_spec/wav.6.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_train_spec.6.ark,/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_train_spec.6.scp 
+# Started at Sat Jan 18 14:02:05 CST 2020
+#
+copy-feats --compress=true ark:- ark,scp:/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_train_spec.6.ark,/home/lijianchen/ASVspoof/Attentive-Filtering-Network/logspec/raw_spec_train_spec.6.scp 
+compute-spectrogram-feats --verbose=2 --config=conf/spec.conf scp,p:exp/make_spec/wav.6.scp ark:- 
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000947
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000948
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000949
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000950
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000951
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000952
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000953
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000954
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000955
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 10 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000956
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000957
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000958
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000959
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000960
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000961
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000962
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000963
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000964
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000965
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 20 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000966
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000967
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000968
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000969
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000970
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000971
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000972
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000973
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000974
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000975
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 30 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000976
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000977
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000978
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000979
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000980
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000981
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000982
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000983
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000984
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000985
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 40 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000986
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000987
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000988
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000989
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000990
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000991
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000992
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000993
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000994
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000995
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 50 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000996
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000997
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000998
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1000999
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001000
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001001
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001002
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001003
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001004
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001005
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 60 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001006
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001007
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001008
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001009
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001010
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001011
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001012
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001013
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001014
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001015
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 70 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001016
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001017
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001018
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001019
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001020
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001021
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001022
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001023
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001024
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001025
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 80 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001026
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001027
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001028
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001029
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001030
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001031
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001032
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001033
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001034
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001035
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 90 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001036
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001037
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001038
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001039
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001040
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001041
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001042
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001043
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001044
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001045
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 100 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001046
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001047
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001048
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001049
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001050
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001051
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001052
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001053
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001054
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001055
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 110 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001056
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001057
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001058
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001059
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001060
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001061
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001062
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001063
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001064
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001065
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 120 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001066
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001067
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001068
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001069
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001070
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001071
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001072
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001073
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001074
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001075
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 130 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001076
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001077
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001078
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001079
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001080
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001081
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001082
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001083
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001084
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001085
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 140 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001086
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001087
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001088
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001089
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001090
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001091
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001092
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001093
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001094
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001095
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 150 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001096
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001097
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001098
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001099
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001100
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001101
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001102
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001103
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001104
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001105
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 160 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001106
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001107
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001108
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001109
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001110
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001111
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001112
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001113
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001114
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001115
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 170 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001116
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001117
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001118
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001119
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001120
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001121
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001122
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001123
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001124
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001125
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:153) Processed 180 utterances
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001126
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001127
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001128
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001129
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001130
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001131
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001132
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001133
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001134
+VLOG[2] (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:154) Processed features for key genuine-T_1001135
+LOG (compute-spectrogram-feats[5.5.536~1-eb836]:main():compute-spectrogram-feats.cc:157)  Done 189 out of 189 utterances.
+LOG (copy-feats[5.5.536~1-eb836]:main():copy-feats.cc:143) Copied 189 feature matrices.
+# Accounting: time=3 threads=1
+# Ended (code 0) at Sat Jan 18 14:02:08 CST 2020, elapsed time 3 seconds

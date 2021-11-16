@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+RunKaldiCommand	data_dir_manipulation_lib.py	/^def RunKaldiCommand(command, wait = True):$/;"	f
+__init__	reverberate_data_dir.py	/^    def __init__(self, list):$/;"	m	class:list_cyclic_iterator
+__next__	reverberate_data_dir.py	/^    def __next__(self):$/;"	m	class:list_cyclic_iterator	file:
+add_point_source_noise	reverberate_data_dir.py	/^def add_point_source_noise(noise_addition_descriptor,  # descriptor to store the information of the noise added$/;"	f
+add_prefix_to_fields	reverberate_data_dir.py	/^def add_prefix_to_fields(input_file, output_file, num_replicas, include_original, prefix, field = [0]):$/;"	f
+almost_equal	reverberate_data_dir.py	/^def almost_equal(value_1, value_2, accuracy = 10**-8):$/;"	f
+augment_wav	augment_data_dir.py	/^    bg_noise_utts, noise_wavs, noise2dur, interval, num_opts):$/;"	f
+check_args	augment_data_dir.py	/^def check_args(args):$/;"	f
+check_args	make_musan.py	/^def check_args(args):$/;"	f
+check_args	reverberate_data_dir.py	/^def check_args(args):$/;"	f
+copy_file_if_exists	augment_data_dir.py	/^def copy_file_if_exists(input_file, output_file, utt_modifier_type,$/;"	f
+create_augmented_utt2uniq	augment_data_dir.py	/^def create_augmented_utt2uniq(input_dir, output_dir,$/;"	f
+create_corrupted_utt2uniq	reverberate_data_dir.py	/^def create_corrupted_utt2uniq(input_dir, output_dir, num_replicas, include_original, prefix):$/;"	f
+create_reverberated_copy	reverberate_data_dir.py	/^def create_reverberated_copy(input_dir,$/;"	f
+data_lib	augment_data_dir.py	/^data_lib = imp.load_source('dml', 'steps\/data\/data_dir_manipulation_lib.py')$/;"	v
+data_lib	reverberate_data_dir.py	/^data_lib = imp.load_source('dml', 'steps\/data\/data_dir_manipulation_lib.py')$/;"	v
+generate_reverberated_wav_scp	reverberate_data_dir.py	/^def generate_reverberated_wav_scp(wav_scp,  # a dictionary whose values are the Kaldi-IO strings of the speech recordings$/;"	f
+generate_reverberation_opts	reverberate_data_dir.py	/^def generate_reverberation_opts(room_dict,  # the room dictionary, please refer to make_room_dict() for the format$/;"	f
+get_args	augment_data_dir.py	/^def get_args():$/;"	f
+get_args	make_musan.py	/^def get_args():$/;"	f
+get_args	reverberate_data_dir.py	/^def get_args():$/;"	f
+get_new_id	augment_data_dir.py	/^def get_new_id(utt, utt_modifier_type, utt_modifier):$/;"	f
+get_new_id	reverberate_data_dir.py	/^def get_new_id(id, prefix=None, copy=0):$/;"	f
+get_noise_list	augment_data_dir.py	/^def get_noise_list(noise_wav_scp_filename):$/;"	f
+list_cyclic_iterator	reverberate_data_dir.py	/^class list_cyclic_iterator(object):$/;"	c
+main	augment_data_dir.py	/^def main():$/;"	f
+main	make_musan.py	/^def main():$/;"	f
+main	reverberate_data_dir.py	/^def main():$/;"	f
+make_room_dict	reverberate_data_dir.py	/^def make_room_dict(rir_list):$/;"	f
+next	reverberate_data_dir.py	/^    next = __next__  # for Python 2$/;"	v	class:list_cyclic_iterator
+parse_file_to_dict	reverberate_data_dir.py	/^def parse_file_to_dict(file, assert2fields = False, value_processor = None):$/;"	f
+parse_noise_list	reverberate_data_dir.py	/^def parse_noise_list(noise_set_para_array, smoothing_weight, sampling_rate = None):$/;"	f
+parse_rir_list	reverberate_data_dir.py	/^def parse_rir_list(rir_set_para_array, smoothing_weight, sampling_rate = None):$/;"	f
+parse_set_parameter_strings	reverberate_data_dir.py	/^def parse_set_parameter_strings(set_para_array):$/;"	f
+pick_item_with_probability	reverberate_data_dir.py	/^def pick_item_with_probability(x):$/;"	f
+prepare_music	make_musan.py	/^def prepare_music(root_dir, use_vocals, sampling_rate):$/;"	f
+prepare_noise	make_musan.py	/^def prepare_noise(root_dir, sampling_rate):$/;"	f
+prepare_speech	make_musan.py	/^def prepare_speech(root_dir, sampling_rate):$/;"	f
+process_music_annotations	make_musan.py	/^def process_music_annotations(path):$/;"	f
+smooth_probability_distribution	reverberate_data_dir.py	/^def smooth_probability_distribution(set_list, smoothing_weight=0.0, target_sum=1.0):$/;"	f
+write_dict_to_file	reverberate_data_dir.py	/^def write_dict_to_file(dict, file_name):$/;"	f

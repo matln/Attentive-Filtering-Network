@@ -4,13 +4,14 @@
 # Jeff Lai
 . ./cmd.sh
 . ./path.sh
+echo $PATH
 set -e
 mfccdir=`pwd`/mfcc
 fbankdir=`pwd`/fbank
 plpdir=`pwd`/plp
 specdir=`pwd`/logspec
-vadir=`pwd`/vad
-stage=0
+# vadir=`pwd`/vad
+stage=-5
 num_components=128 # UBM
 ivector_dim=200 # ivector
 
@@ -44,7 +45,7 @@ if [ $stage -eq -5 ]; then
     # logspec (257) feature extraction
     # apply cmvn sliding window
     for name in train dev eval train_dev; do
-      #utils/copy_data_dir.sh data/${name}_spec data/${name}_spec_cmvn
+      utils/copy_data_dir.sh data/${name}_spec data/${name}_spec_cmvn
       feats="ark:apply-cmvn-sliding --norm-vars=false --center=true --cmn-window=300 scp:`pwd`/data/${name}_spec/feats.scp ark:- |"
       copy-feats "$feats" ark,scp:`pwd`/data/${name}_spec_cmvn/feats.ark,`pwd`/data/${name}_spec_cmvn/feats.scp
     done
@@ -52,11 +53,12 @@ fi
 
 if [ $stage -eq -4 ]; then
     # logspec (257) feature extraction
+    local/make_asvspoof2017_v2.pl /data/corpus/ASVspoof/2017 data
     for name in train dev eval train_dev; do
       utils/fix_data_dir.sh data/${name}
       utils/copy_data_dir.sh data/${name} data/${name}_spec
 
-      local/make_spectrogram.sh --fbank-config conf/spec.conf --nj 40 --cmd "$train_cmd" \
+      steps/make_spectrogram.sh --spec-config conf/spec.conf --nj 16 --cmd "$train_cmd" \
           data/${name}_spec exp/make_spec $specdir
     done
 fi
@@ -68,9 +70,9 @@ if [ $stage -eq -3 ]; then
       utils/fix_data_dir.sh data/${name}
       utils/copy_data_dir.sh data/${name} data/${name}_spec
 
-      local/make_spectrogram.sh --fbank-config conf/spec.conf --nj 40 --cmd "$train_cmd" \
+      local/make_spectrogram.sh --fbank-config conf/spec.conf --nj 16 --cmd "$train_cmd" \
           data/${name}_spec exp/make_spec $specdir
-      sid/compute_vad_decision.sh --nj 5 --cmd "$train_cmd" \
+      sid/compute_vad_decision.sh --nj 16 --cmd "$train_cmd" \
 	  data/${name}_spec exp/make_vad $vadir
       utils/copy_data_dir.sh data/${name}_spec data/${name}_spec_vad
       feats="ark:select-voiced-frames scp:`pwd`/data/${name}_spec/feats.scp scp:`pwd`/data/${name}_spec/vad.scp ark:- |"
@@ -105,15 +107,15 @@ if [ $stage -eq -1 ]; then
 
       # mfcc
       utils/copy_data_dir.sh data/${name} data/${name}_mfcc
-      steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --nj 40 --cmd "$train_cmd" \
+      steps/make_mfcc.sh --mfcc-config conf/mfcc.conf --nj 16 --cmd "$train_cmd" \
           data/${name}_mfcc exp/make_mfcc $mfccdir
       # fbank
       utils/copy_data_dir.sh data/${name} data/${name}_fbank
-      steps/make_fbank.sh --fbank-config conf/fbank.conf --nj 40 --cmd "$train_cmd" \
+      steps/make_fbank.sh --fbank-config conf/fbank.conf --nj 16 --cmd "$train_cmd" \
           data/${name}_fbank exp/make_fbank $fbankdir
       # plp
       utils/copy_data_dir.sh data/${name} data/${name}_plp
-      steps/make_plp.sh --plp-config conf/plp.conf --nj 40 --cmd "$train_cmd" \
+      steps/make_plp.sh --plp-config conf/plp.conf --nj 16 --cmd "$train_cmd" \
           data/${name}_plp exp/make_plp $plpdir
     done
 fi

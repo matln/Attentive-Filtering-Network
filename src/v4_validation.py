@@ -7,8 +7,8 @@ import torch.nn.functional as F
 from v1_metrics import compute_eer
 import data_reader.adv_kaldi_io as ako
 
-file_shit = '/export/b19/jlai/cstr/spoof/model/src/data_reader/spec/utt2label/dev_utt2label'
-utt2label = ako.read_key_label(file_shit)
+# file_shit = '/export/b19/jlai/cstr/spoof/model/src/data_reader/spec/utt2label/dev_utt2label'
+# utt2label = ako.read_key_label(file_shit)
 
 """
 utterance-based validation without stochastic search for threshold 
@@ -21,12 +21,13 @@ logger = logging.getLogger("anti-spoofing")
 def validation(args, model, device, val_loader, val_scp, val_utt2label, rnn=False):
     logger.info("Starting Validation")
     val_loss, val_scores = compute_loss(model, device, val_loader, rnn)
-    val_preds, val_labels =  utt_scores(val_scores, val_scp, val_utt2label)
+    val_preds, val_labels = utt_scores(val_scores, val_scp, val_utt2label)
     val_eer  = compute_eer(val_labels, val_preds)
 
     logger.info('===> Validation set: Average loss: {:.4f}\tEER: {:.4f}\n'.format(
                 val_loss, val_eer))
     return val_loss, val_eer
+
 
 def utt_scores(scores, scp, utt2label):
     """return predictions and labels per utterance
@@ -34,7 +35,7 @@ def utt_scores(scores, scp, utt2label):
     utt2label = ako.read_key_label(utt2label)
 
     preds, labels = [], []
-    for key,value in scores.iteritems():
+    for key, value in scores.items():
         #print(key.encode("latin-1"), utt2label[key])
         preds.append(value)
         labels.append(utt2label[key])

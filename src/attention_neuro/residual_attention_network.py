@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn.init import xavier_normal_
 import numpy as np
-from basic_layers import ResidualBlock, CRResidualBlock 
+from basic_layers import ResidualBlock, CRResidualBlock
 from attention_module import AttentionModule_stg0
 
 class ResidualAttentionModel(nn.Module):

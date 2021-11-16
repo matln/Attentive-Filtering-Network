@@ -6,6 +6,7 @@ but first concatenate all feature scp files into one big fat scp file before usi
 Jeff Lai, 2018
 """
 
+
 def read_all_key(file):
     """return all keys/utterances of a kaldi scp file
     """
@@ -18,6 +19,7 @@ def read_all_key(file):
     finally:
         if fd is not file: fd.close()
         return key_list
+
 
 def read_mat_key(file, target_key):
     """read the matrix of the target key/utterance from a kaldi scp file
@@ -40,6 +42,7 @@ def read_total_len(file):
         total_len += value
     return total_len
 
+
 def read_key_len(file):
     """return a dictionary of key --> length of the key
     for all keys in a kaldi scp file
@@ -50,6 +53,7 @@ def read_key_len(file):
         mat = read_mat_key(file, key)
         key_map[key] = len(mat)
     return key_map
+
 
 def read_key_label(file):
     """return a dictionary of key --> label of the key, where

@@ -426,10 +426,10 @@ class AttenResNet4(nn.Module):
             self.conv1 = nn.Sequential( # channel compression 
                 nn.BatchNorm2d(atten_channel),
                 nn.ReLU(inplace=True),
-                nn.Conv2d(atten_channel, atten_channel/4, kernel_size=1, stride=1),
-                nn.BatchNorm2d(atten_channel/4),
+                nn.Conv2d(atten_channel, int(atten_channel/4), kernel_size=1, stride=1),
+                nn.BatchNorm2d(int(atten_channel/4)),
                 nn.ReLU(inplace=True),
-                nn.Conv2d(atten_channel/4, 1, kernel_size=1, stride=1)
+                nn.Conv2d(int(atten_channel/4), 1, kernel_size=1, stride=1)
             )
        
         if atten_activation == 'tanh':
@@ -610,7 +610,7 @@ class AttenResNet4(nn.Module):
         out = self.sigmoid(self.ln6(self.re11(self.bn11(x))))
         ##print(out.size()) 
         
-        return out, weight
+        return out
 
 
 # Attention-ResNet3 (utterance-based) 

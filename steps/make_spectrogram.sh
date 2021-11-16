@@ -8,7 +8,7 @@
 # Begin configuration section.
 nj=4
 cmd=run.pl
-fbank_config=conf/fbank.conf
+spec_config=conf/spec.conf
 compress=true
 # End configuration section.
 
@@ -18,11 +18,11 @@ if [ -f path.sh ]; then . ./path.sh; fi
 . parse_options.sh || exit 1;
 
 if [ $# -lt 1 ] || [ $# -gt 3 ]; then
-   echo "Usage: $0 [options] <data-dir> [<log-dir> [<fbank-dir>] ]";
-   echo "e.g.: $0 data/train exp/make_fbank/train mfcc"
-   echo "Note: <log-dir> defaults to <data-dir>/log, and <fbank-dir> defaults to <data-dir>/data"
+   echo "Usage: $0 [options] <data-dir> [<log-dir> [<spec-dir>] ]";
+   echo "e.g.: $0 data/train exp/make_spec/train spec"
+   echo "Note: <log-dir> defaults to <data-dir>/log, and <spec-dir> defaults to <data-dir>/data"
    echo "Options: "
-   echo "  --fbank-config <config-file>                     # config passed to compute-fbank-feats "
+   echo "  --spec-config <config-file>                     # config passed to compute-spectrogram-feats "
    echo "  --nj <nj>                                        # number of parallel jobs"
    echo "  --cmd (utils/run.pl|utils/queue.pl <queue opts>) # how to run jobs."
    exit 1;
@@ -35,19 +35,19 @@ else
   logdir=$data/log
 fi
 if [ $# -ge 3 ]; then
-  fbankdir=$3
+  specdir=$3
 else
-  fbankdir=$data/data
+  specdir=$data/data
 fi
 
 
-# make $fbankdir an absolute pathname.
-fbankdir=`perl -e '($dir,$pwd)= @ARGV; if($dir!~m:^/:) { $dir = "$pwd/$dir"; } print $dir; ' $fbankdir ${PWD}`
+# make $specdir an absolute pathname.
+specdir=`perl -e '($dir,$pwd)= @ARGV; if($dir!~m:^/:) { $dir = "$pwd/$dir"; } print $dir; ' $specdir ${PWD}`
 
 # use "name" as part of name of the archive.
 name=`basename $data`
 
-mkdir -p $fbankdir || exit 1;
+mkdir -p $specdir || exit 1;
 mkdir -p $logdir || exit 1;
 
 if [ -f $data/feats.scp ]; then
@@ -58,11 +58,11 @@ fi
 
 scp=$data/wav.scp
 
-required="$scp $fbank_config"
+required="$scp $spec_config"
 
 for f in $required; do
   if [ ! -f $f ]; then
-    echo "make_fbank.sh: no such file $f"
+    echo "make_spectrogram.sh: no such file $f"
     exit 1;
   fi
 done
@@ -78,9 +78,9 @@ elif [ -f $data/utt2warp ]; then
 fi
 
 for n in $(seq $nj); do
-  # the next command does nothing unless $fbankdir/storage/ exists, see
+  # the next command does nothing unless $specdir/storage/ exists, see
   # utils/create_data_link.pl for more info.
-  utils/create_data_link.pl $fbankdir/raw_fbank_$name.$n.ark
+  utils/create_data_link.pl $specdir/raw_spec_$name.$n.ark
 done
 
 if [ -f $data/segments ]; then
@@ -93,11 +93,11 @@ if [ -f $data/segments ]; then
   utils/split_scp.pl $data/segments $split_segments || exit 1;
   rm $logdir/.error 2>/dev/null
 
-  $cmd JOB=1:$nj $logdir/make_fbank_${name}.JOB.log \
+  $cmd JOB=1:$nj $logdir/make_spec_${name}.JOB.log \
     extract-segments scp,p:$scp $logdir/segments.JOB ark:- \| \
-    compute-spectrogram-feats $vtln_opts --verbose=2 --config=$fbank_config ark:- ark:- \| \
+    compute-spectrogram-feats $vtln_opts --verbose=2 --config=$spec_config ark:- ark:- \| \
     copy-feats --compress=$compress ark:- \
-     ark,scp:$fbankdir/raw_fbank_$name.JOB.ark,$fbankdir/raw_fbank_$name.JOB.scp \
+     ark,scp:$specdir/raw_spec_$name.JOB.ark,$specdir/raw_spec_$name.JOB.scp \
      || exit 1;
 
 else
@@ -109,24 +109,24 @@ else
 
   utils/split_scp.pl $scp $split_scps || exit 1;
 
-  $cmd JOB=1:$nj $logdir/make_fbank_${name}.JOB.log \
-    compute-spectrogram-feats $vtln_opts --verbose=2 --config=$fbank_config scp,p:$logdir/wav.JOB.scp ark:- \| \
+  $cmd JOB=1:$nj $logdir/make_spec_${name}.JOB.log \
+    compute-spectrogram-feats $vtln_opts --verbose=2 --config=$spec_config scp,p:$logdir/wav.JOB.scp ark:- \| \
     copy-feats --compress=$compress ark:- \
-     ark,scp:$fbankdir/raw_fbank_$name.JOB.ark,$fbankdir/raw_fbank_$name.JOB.scp \
+     ark,scp:$specdir/raw_spec_$name.JOB.ark,$specdir/raw_spec_$name.JOB.scp \
      || exit 1;
 
 fi
 
 
 if [ -f $logdir/.error.$name ]; then
-  echo "Error producing fbank features for $name:"
-  tail $logdir/make_fbank_${name}.1.log
+  echo "Error producing spec features for $name:"
+  tail $logdir/make_spec_${name}.1.log
   exit 1;
 fi
 
 # concatenate the .scp files together.
 for n in $(seq $nj); do
-  cat $fbankdir/raw_fbank_$name.$n.scp || exit 1;
+  cat $specdir/raw_spec_$name.$n.scp || exit 1;
 done > $data/feats.scp
 
 rm $logdir/wav.*.scp  $logdir/segments.* 2>/dev/null
@@ -138,4 +138,4 @@ if [ $nf -ne $nu ]; then
   echo "consider using utils/fix_data_dir.sh $data"
 fi
 
-echo "Succeeded creating filterbank features for $name"
+echo "Succeeded creating spectrogram features for $name"

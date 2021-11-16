@@ -1,0 +1,554 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddCount	lang/make_phone_lm.py	/^    def AddCount(self, history, predicted_word, count):$/;"	m	class:NgramCounts
+AddCount	lang/make_phone_lm.py	/^    def AddCount(self, predicted_word, count):$/;"	m	class:CountsForHistory
+AddRawCountsFromLine	lang/make_phone_lm.py	/^    def AddRawCountsFromLine(self, line):$/;"	m	class:NgramCounts
+AddRawCountsFromStandardInput	lang/make_phone_lm.py	/^    def AddRawCountsFromStandardInput(self):$/;"	m	class:NgramCounts
+ApplyBackoff	lang/make_phone_lm.py	/^    def ApplyBackoff(self):$/;"	m	class:NgramCounts
+ArpaModel	lang/internal/arpa2fst_constrained.py	/^class ArpaModel(object):$/;"	c
+BPE	lang/bpe/apply_bpe.py	/^class BPE(object):$/;"	c
+CombineList	data/internal/choose_utts_to_combine.py	/^def CombineList(min_duration, durations):$/;"	f
+CountsForHistory	lang/make_kn_lm.py	/^class CountsForHistory:$/;"	c
+CountsForHistory	lang/make_phone_lm.py	/^class CountsForHistory(object):$/;"	c
+EnsureStructurallyNeededNgramsExist	lang/make_phone_lm.py	/^    def EnsureStructurallyNeededNgramsExist(self):$/;"	m	class:NgramCounts
+FloatToString	data/extend_segment_times.py	/^def FloatToString(f):$/;"	f
+GetFormatString	data/internal/modify_speaker_info.py	/^def GetFormatString(d):$/;"	f
+GetGCD	create_data_link.pl	/^sub GetGCD {$/;"	s
+GetHistToStateMap	lang/internal/arpa2fst_constrained.py	/^    def GetHistToStateMap(self):$/;"	m	class:ArpaModel
+GetHistToStateMap	lang/make_phone_lm.py	/^    def GetHistToStateMap(self):$/;"	m	class:NgramCounts
+GetLikeChangeFromPruningNgram	lang/make_phone_lm.py	/^    def GetLikeChangeFromPruningNgram(self, hist, word):$/;"	m	class:NgramCounts
+GetNumExtraNgrams	lang/make_phone_lm.py	/^    def GetNumExtraNgrams(self):$/;"	m	class:NgramCounts
+GetNumNgrams	lang/make_phone_lm.py	/^    def GetNumNgrams(self, hist_len = None):$/;"	m	class:NgramCounts
+GetProb	lang/internal/arpa2fst_constrained.py	/^    def GetProb(self, hist, word):$/;"	m	class:ArpaModel
+GetProb	lang/make_phone_lm.py	/^    def GetProb(self, hist, word):$/;"	m	class:NgramCounts
+GetProtectedNgrams	lang/make_phone_lm.py	/^    def GetProtectedNgrams(self):$/;"	m	class:NgramCounts
+GetStateForHist	lang/internal/arpa2fst_constrained.py	/^    def GetStateForHist(self, hist_to_state, hist):$/;"	m	class:ArpaModel
+GetUtteranceGroups	data/internal/choose_utts_to_combine.py	/^def GetUtteranceGroups(min_duration, spk2utt, utt2dur):$/;"	f
+Glorot	nnet/make_nnet_proto.py	/^def Glorot(dim1, dim2):$/;"	f
+HistoryState	lang/internal/arpa2fst_constrained.py	/^class HistoryState(object):$/;"	c
+IntToString	lang/make_phone_lm.py	/^    def IntToString(self, i):$/;"	m	class:NgramCounts
+KwslistDupSort	kwslist_post_process.pl	/^sub KwslistDupSort {$/;"	s
+KwslistDupSort	write_kwslist.pl	/^sub KwslistDupSort {$/;"	s
+KwslistOutputSort	kwslist_post_process.pl	/^sub KwslistOutputSort {$/;"	s
+KwslistOutputSort	write_kwslist.pl	/^sub KwslistOutputSort {$/;"	s
+LessThan	data/internal/choose_utts_to_combine.py	/^def LessThan(x, y):$/;"	f
+M_2PI	nnet/gen_hamm_mat.py	/^M_2PI = 6.283185307179586476925286766559005$/;"	v
+M_PI	nnet/gen_dct_mat.py	/^M_PI = 3.1415926535897932384626433832795$/;"	v
+M_SQRT2	nnet/gen_dct_mat.py	/^M_SQRT2 = 1.4142135623730950488016887$/;"	v
+NgramCounts	lang/make_kn_lm.py	/^class NgramCounts:$/;"	c
+NgramCounts	lang/make_phone_lm.py	/^class NgramCounts(object):$/;"	c
+Note	apply_map.pl	/^ Note: <field-range> can look like 4-5, or 4-, or 5-, or 1, it means the field$/;"	l
+Options	nnet-cpu/make_nnet_config.pl	/^Options:$/;"	l
+Options	nnet-cpu/make_nnet_config_block.pl	/^Options:$/;"	l
+Options	nnet-cpu/make_nnet_config_preconditioned.pl	/^Options:$/;"	l
+Options	nnet-cpu/update_learning_rates.pl	/^Options:$/;"	l
+Print	lang/make_phone_lm.py	/^    def Print(self, info_string):$/;"	m	class:NgramCounts
+PrintAsArpa	lang/make_phone_lm.py	/^    def PrintAsArpa(self):$/;"	m	class:NgramCounts
+PrintAsFst	lang/internal/arpa2fst_constrained.py	/^    def PrintAsFst(self, disambig_symbol, bigram_map):$/;"	m	class:ArpaModel
+PrintAsFst	lang/make_phone_lm.py	/^    def PrintAsFst(self, word_disambig_symbol):$/;"	m	class:NgramCounts
+PrintKwslist	kwslist_post_process.pl	/^sub PrintKwslist {$/;"	s
+PrintKwslist	write_kwslist.pl	/^sub PrintKwslist {$/;"	s
+PruneEmptyStates	lang/make_phone_lm.py	/^    def PruneEmptyStates(self):$/;"	m	class:NgramCounts
+PruneNgram	lang/make_phone_lm.py	/^    def PruneNgram(self, hist, word):$/;"	m	class:NgramCounts
+PruneToFinalTarget	lang/make_phone_lm.py	/^    def PruneToFinalTarget(self, num_extra_ngrams):$/;"	m	class:NgramCounts
+PruneToIntermediateTarget	lang/make_phone_lm.py	/^    def PruneToIntermediateTarget(self, num_extra_ngrams):$/;"	m	class:NgramCounts
+PruningLogprobChange	lang/make_phone_lm.py	/^    def PruningLogprobChange(self, count, discount, backoff_count, backoff_total):$/;"	m	class:NgramCounts
+Read	lang/internal/arpa2fst_constrained.py	/^    def Read(self, arpa_in):$/;"	m	class:ArpaModel
+ReadBigramMap	lang/internal/arpa2fst_constrained.py	/^def ReadBigramMap(bigrams_file):$/;"	f
+ReadKwslist	kwslist_post_process.pl	/^sub ReadKwslist {$/;"	s
+SelfTest	data/internal/choose_utts_to_combine.py	/^def SelfTest():$/;"	f
+SplitIntoGroups	data/internal/modify_speaker_info.py	/^def SplitIntoGroups(uttlist):$/;"	f
+Usage	apply_map.pl	/^Usage: apply_map.pl [options] map <input >output$/;"	l
+Usage	create_data_link.pl	/^Usage: utils\/create_data_link.pl <data-archive1> [<data-archive2> ... ]$/;"	l
+Usage	create_split_dir.pl	/^Usage: utils\/create_split_dir.pl <actual_storage_dirs> <pseudo_storage_dir>$/;"	l
+Usage	data/fix_subsegment_feats.pl	/^Usage: $0 <utt2max-frames> < feats.scp > fixed_feats.scp$/;"	l
+Usage	kwslist_post_process.pl	/^Usage: kwslist_post_process.pl [options] <kwslist_in|-> <kwslist_out|->$/;"	l
+Usage	lang/add_unigrams_arpa.pl	/^Usage: utils\/lang\/add_unigrams_arpa.pl [options] <oov-prob-file> <scale> <input-arpa >output-arpa$/;"	l
+Usage	lang/adjust_unk_arpa.pl	/^Usage: utils\/lang\/adjust_unk_arpa.pl [options] <oov-dict-entry> <unk-scale> <input-arpa >output-arpa$/;"	l
+Usage	lang/get_word_position_phone_map.pl	/^Usage: utils\/lang\/get_word_position_phone_map.pl <lang-dir> <output-dir>$/;"	l
+Usage	lang/validate_disambig_sym_file.pl	/^Usage:  validate_disambig_sym_file.pl [options] disambig_syms.txt$/;"	l
+Usage	map_arpa_lm.pl	/^Usage: utils\/map_arpa_lm.pl [options] <vocab-file> < input-arpa >output-arpa$/;"	l
+Usage	write_kwslist.pl	/^Usage: utils\/write_kwslist.pl [options] <raw_result_in|-> <kwslist_out|->$/;"	l
+Utterance	data/perturb_speed_to_allowed_lengths.py	/^class Utterance(object):$/;"	c
+Words	lang/make_phone_lm.py	/^    def Words(self):$/;"	m	class:CountsForHistory
+__init__	data/perturb_speed_to_allowed_lengths.py	/^    def __init__(self, uid, wavefile, speaker, transcription, dur):$/;"	m	class:Utterance
+__init__	lang/bpe/apply_bpe.py	/^    def __init__(self, codes, merges=-1, separator='@@', vocab=None, glossaries=None):$/;"	m	class:BPE
+__init__	lang/internal/arpa2fst_constrained.py	/^    def __init__(self):$/;"	m	class:ArpaModel
+__init__	lang/internal/arpa2fst_constrained.py	/^    def __init__(self):$/;"	m	class:HistoryState
+__init__	lang/make_kn_lm.py	/^    def __init__(self):$/;"	m	class:CountsForHistory
+__init__	lang/make_kn_lm.py	/^    def __init__(self, ngram_order, bos_symbol='<s>', eos_symbol='<\/s>'):$/;"	m	class:NgramCounts
+__init__	lang/make_phone_lm.py	/^    def __init__(self):$/;"	m	class:CountsForHistory
+__init__	lang/make_phone_lm.py	/^    def __init__(self, ngram_order):$/;"	m	class:NgramCounts
+__str__	lang/make_kn_lm.py	/^    def __str__(self):$/;"	m	class:CountsForHistory	file:
+__str__	lang/make_phone_lm.py	/^    def __str__(self):$/;"	m	class:CountsForHistory	file:
+_isolate_glossaries	lang/bpe/apply_bpe.py	/^    def _isolate_glossaries(self, word):$/;"	m	class:BPE
+a	data/internal/choose_utts_to_combine.py	/^    a = line.split()$/;"	v
+a	data/internal/modify_speaker_info.py	/^            a = line.split()$/;"	v
+a	data/internal/modify_speaker_info.py	/^    a = line.split()$/;"	v
+add_count	lang/make_kn_lm.py	/^    def add_count(self, history, predicted_word, context_word, count):$/;"	m	class:NgramCounts
+add_count	lang/make_kn_lm.py	/^    def add_count(self, predicted_word, context_word, count):$/;"	m	class:CountsForHistory
+add_raw_counts_from_file	lang/make_kn_lm.py	/^    def add_raw_counts_from_file(self, filename):$/;"	m	class:NgramCounts
+add_raw_counts_from_line	lang/make_kn_lm.py	/^    def add_raw_counts_from_line(self, line):$/;"	m	class:NgramCounts
+add_raw_counts_from_standard_input	lang/make_kn_lm.py	/^    def add_raw_counts_from_standard_input(self):$/;"	m	class:NgramCounts
+args	data/extend_segment_times.py	/^args = parser.parse_args()$/;"	v
+args	data/internal/choose_utts_to_combine.py	/^args = parser.parse_args()$/;"	v
+args	data/internal/modify_speaker_info.py	/^args = parser.parse_args()$/;"	v
+args	lang/bpe/apply_bpe.py	/^    args = parser.parse_args()$/;"	v
+args	lang/bpe/learn_bpe.py	/^    args = parser.parse_args()$/;"	v
+args	lang/compute_sentence_probs_arpa.py	/^args = parser.parse_args()$/;"	v
+args	lang/internal/arpa2fst_constrained.py	/^args = parser.parse_args()$/;"	v
+args	lang/internal/modify_unk_pron.py	/^args = parser.parse_args()$/;"	v
+args	lang/limit_arpa_unk_history.py	/^args = parser.parse_args()$/;"	v
+args	lang/make_kn_lm.py	/^args = parser.parse_args()$/;"	v
+args	lang/make_phone_lm.py	/^args = parser.parse_args()$/;"	v
+arpa_model	lang/internal/arpa2fst_constrained.py	/^arpa_model = ArpaModel()$/;"	v
+arpaname	reverse_arpa.py	/^arpaname = sys.argv[1]$/;"	v
+back	reverse_arpa.py	/^          back = offset$/;"	v
+back	reverse_arpa.py	/^      back = 0.0$/;"	v
+back	reverse_arpa.py	/^      back = float(entry[-1])$/;"	v
+basename	lang/internal/modify_unk_pron.py	/^basename = os.path.basename(args.lexicon_file)$/;"	v
+bigrams_map	lang/internal/arpa2fst_constrained.py	/^bigrams_map = ReadBigramMap(args.allowed_bigrams_in)$/;"	v
+bpe	lang/bpe/apply_bpe.py	/^    bpe = BPE(args.codes, args.merges, args.separator, vocabulary, args.glossaries)$/;"	v
+cal_bow	lang/make_kn_lm.py	/^    def cal_bow(self):$/;"	m	class:NgramCounts
+cal_discounting_constants	lang/make_kn_lm.py	/^    def cal_discounting_constants(self):$/;"	m	class:NgramCounts
+cal_f	lang/make_kn_lm.py	/^    def cal_f(self):$/;"	m	class:NgramCounts
+caught_signal	parallel/queue.pl	/^sub caught_signal {$/;"	s
+caught_signal	queue.pl	/^sub caught_signal {$/;"	s
+check_allowed_whitespace	lang/validate_lang.pl	/^sub check_allowed_whitespace {$/;"	s
+check_allowed_whitespace	validate_dict_dir.pl	/^sub check_allowed_whitespace {$/;"	s
+check_allowed_whitespace	validate_lang.pl	/^sub check_allowed_whitespace {$/;"	s
+check_allowed_whitespace	validate_text.pl	/^sub check_allowed_whitespace {$/;"	s
+check_args	lang/compute_sentence_probs_arpa.py	/^def check_args(args):$/;"	f
+check_disjoint	lang/validate_lang.pl	/^sub check_disjoint {$/;"	s
+check_disjoint	validate_lang.pl	/^sub check_disjoint {$/;"	s
+check_lexicon	validate_dict_dir.pl	/^sub check_lexicon {$/;"	s
+check_lexicon_pair	validate_dict_dir.pl	/^sub check_lexicon_pair {$/;"	s
+check_number	lang/compute_sentence_probs_arpa.py	/^def check_number(model_file, tot_num):$/;"	f
+check_sorted	data/fix_data_dir.sh	/^function check_sorted {$/;"	f
+check_sorted	fix_data_dir.sh	/^function check_sorted {$/;"	f
+check_sorted_and_uniq	data/validate_data_dir.sh	/^function check_sorted_and_uniq {$/;"	f
+check_sorted_and_uniq	validate_data_dir.sh	/^function check_sorted_and_uniq {$/;"	f
+check_summation	lang/validate_lang.pl	/^sub check_summation {$/;"	s
+check_summation	validate_lang.pl	/^sub check_summation {$/;"	s
+check_txt_int	lang/validate_lang.pl	/^sub check_txt_int {$/;"	s
+check_txt_int	validate_lang.pl	/^sub check_txt_int {$/;"	s
+check_txt_int_csl	lang/validate_lang.pl	/^sub check_txt_int_csl {$/;"	s
+check_txt_int_csl	validate_lang.pl	/^sub check_txt_int_csl {$/;"	s
+check_vocab_and_split	lang/bpe/apply_bpe.py	/^def check_vocab_and_split(orig, bpe_codes, vocab, separator):$/;"	f
+choices	data/internal/modify_speaker_info.py	/^                    choices = ['true', 'false'],$/;"	v
+choices	lang/make_phone_lm.py	/^                    choices = ["true", "false"],$/;"	v
+choices	lang/make_phone_lm.py	/^                    choices = [1,2,3,4,5],$/;"	v
+choices	lang/make_phone_lm.py	/^                    choices = [2,3,4,5,6,7],$/;"	v
+cjustify	scoring/wer_per_utt_details.pl	/^sub cjustify {$/;"	s
+cngrams	reverse_arpa.py	/^cngrams=[]$/;"	v
+combine_ranges	data/normalize_data_range.pl	/^sub combine_ranges {$/;"	s
+compute_begin_prob	lang/compute_sentence_probs_arpa.py	/^def compute_begin_prob(sub_list):$/;"	f
+compute_sentence_prob	lang/compute_sentence_probs_arpa.py	/^def compute_sentence_prob(sentence, ngram_order):$/;"	f
+compute_sublist_prob	lang/compute_sentence_probs_arpa.py	/^def compute_sublist_prob(sub_list):$/;"	f
+contain_disambig_symbol	lang/make_subword_lexicon_fst.py	/^def contain_disambig_symbol(phones):$/;"	f
+convolution_proto	nnet/make_cnn_proto.py	/^convolution_proto = ''  $/;"	v
+counts	reverse_arpa.py	/^  counts = int(ind[1].strip())$/;"	v
+create_parser	lang/bpe/apply_bpe.py	/^def create_parser():$/;"	f
+create_parser	lang/bpe/learn_bpe.py	/^def create_parser():$/;"	f
+ctm_line_to_string	ctm/resolve_ctm_overlaps.py	/^def ctm_line_to_string(line):$/;"	f
+dct_basis	nnet/gen_dct_mat.py	/^dct_basis=int(options.dct_basis)$/;"	v
+default_encoding	lang/make_kn_lm.py	/^default_encoding = "latin-1"  # For encoding-agnostic scripts, we assume byte stream as input.$/;"	v
+determine_text_direction	lang/bpe/bidi.py	/^def determine_text_direction(text):$/;"	f
+dim	nnet/gen_dct_mat.py	/^dim=int(options.dim)$/;"	v
+dim	nnet/gen_hamm_mat.py	/^dim=int(options.dim)$/;"	v
+dim_in	nnet/gen_splice.py	/^dim_in=int(options.dim_in)$/;"	v
+dim_mat	nnet/gen_hamm_mat.py	/^dim_mat=(2*splice+1)*dim$/;"	v
+dim_out	nnet/gen_splice.py	/^dim_out=(2*splice+1)*dim_in$/;"	v
+dur	data/internal/choose_utts_to_combine.py	/^        dur = float(dur)$/;"	v
+duration	data/internal/choose_utts_to_combine.py	/^            duration = sum([ utt2dur[utt] for utt in utt_groups[i]])$/;"	v
+encode	lang/bpe/apply_bpe.py	/^def encode(orig, bpe_codes, bpe_codes_reverse, vocab, separator, version, cache, glossaries=None):$/;"	f
+end_padding	data/extend_segment_times.py	/^    end_padding = args.end_padding$/;"	v
+end_time	data/extend_segment_times.py	/^        end_time = float(end_time)$/;"	v
+entries	data/extend_segment_times.py	/^entries = []$/;"	v
+entry	reverse_arpa.py	/^    entry = text.split()$/;"	v
+epilog	lang/make_phone_lm.py	/^                                 epilog="See also utils\/lang\/make_phone_bigram_lang.sh")$/;"	v
+exec_command	parallel/slurm.pl	/^sub exec_command {$/;"	s
+exec_command	slurm.pl	/^sub exec_command {$/;"	s
+f	data/internal/choose_utts_to_combine.py	/^    f = open(args.spk2utt_in)$/;"	v
+f	data/internal/choose_utts_to_combine.py	/^    f = open(args.utt2dur_in)$/;"	v
+f	data/internal/modify_speaker_info.py	/^        f = open(args.utt2dur)$/;"	v
+f_conv	nnet/make_cnn_proto.py	/^  f_conv = open('%s\/nnet.proto.convolution' % o.protodir, 'w')$/;"	v
+f_pitch	nnet/make_cnn_proto.py	/^  f_pitch = open('%s\/nnet.proto.pitch' % o.protodir, 'w')$/;"	v
+feat_dim	nnet/make_cnn_proto.py	/^feat_dim = int(args[0]);$/;"	v
+feat_raw_dim	nnet/make_cnn_proto.py	/^feat_raw_dim = feat_dim \/ (o.delta_order+1) \/ (o.splice*2+1) - o.pitch_dim # we need number of feats without deltas and splice and pitch$/;"	v
+file	data/extend_segment_times.py	/^              file = sys.stderr)$/;"	v
+file	data/extend_segment_times.py	/^      file = sys.stderr)$/;"	v
+file	reverse_arpa.py	/^  file = codecs.open(arpaname, "r", "utf-8")$/;"	v
+filter_file	data/fix_data_dir.sh	/^function filter_file {$/;"	f
+filter_file	fix_data_dir.sh	/^function filter_file {$/;"	f
+filter_recordings	data/fix_data_dir.sh	/^function filter_recordings {$/;"	f
+filter_recordings	fix_data_dir.sh	/^function filter_recordings {$/;"	f
+filter_speakers	data/fix_data_dir.sh	/^function filter_speakers {$/;"	f
+filter_speakers	fix_data_dir.sh	/^function filter_speakers {$/;"	f
+filter_utts	data/fix_data_dir.sh	/^function filter_utts {$/;"	f
+filter_utts	fix_data_dir.sh	/^function filter_utts {$/;"	f
+find_allowed_durations	data/perturb_speed_to_allowed_lengths.py	/^def find_allowed_durations(start_dur, end_dur, args):$/;"	f
+find_and_replace_unks	lang/limit_arpa_unk_history.py	/^def find_and_replace_unks(old_lm_lines, max_ngrams, skip_rows):$/;"	f
+find_duration_range	data/perturb_speed_to_allowed_lengths.py	/^def find_duration_range(utterances, coverage_factor):$/;"	f
+format_raw	scoring/wer_per_spk_details.pl	/^sub format_raw {$/;"	s
+format_string	data/internal/modify_speaker_info.py	/^        format_string = '%s-' + GetFormatString(len(uttlists))$/;"	v
+format_string	data/internal/modify_speaker_info.py	/^    format_string = 'speaker-' + GetFormatString(len(uttlists))$/;"	v
+format_sys	scoring/wer_per_spk_details.pl	/^sub format_sys {$/;"	s
+formatter	ctm/resolve_ctm_overlaps.py	/^formatter = logging.Formatter($/;"	v
+formatter	data/perturb_speed_to_allowed_lengths.py	/^formatter = logging.Formatter("%(asctime)s [%(pathname)s:%(lineno)s - "$/;"	v
+formatter_class	lang/compute_sentence_probs_arpa.py	/^                                 formatter_class=argparse.ArgumentDefaultsHelpFormatter)$/;"	v
+generate_kaldi_data_files	data/perturb_speed_to_allowed_lengths.py	/^def generate_kaldi_data_files(utterances, outdir):$/;"	f
+get_args	ctm/resolve_ctm_overlaps.py	/^def get_args():$/;"	f
+get_args	data/get_uniform_subsegments.py	/^def get_args():$/;"	f
+get_args	data/internal/combine_segments_to_recording.py	/^def get_args():$/;"	f
+get_args	data/internal/perturb_volume.py	/^def get_args():$/;"	f
+get_args	data/perturb_speed_to_allowed_lengths.py	/^def get_args():$/;"	f
+get_args	lang/grammar/augment_phones_txt.py	/^def get_args():$/;"	f
+get_args	lang/grammar/augment_words_txt.py	/^def get_args():$/;"	f
+get_args	lang/make_lexicon_fst.py	/^def get_args():$/;"	f
+get_args	lang/make_lexicon_fst_silprob.py	/^def get_args():$/;"	f
+get_args	lang/make_position_dependent_subword_lexicon.py	/^def get_args():$/;"	f
+get_args	lang/make_subword_lexicon_fst.py	/^def get_args():$/;"	f
+get_initial_segments	segmentation.pl	/^sub get_initial_segments {$/;"	s
+get_log_file	parallel/retry.pl	/^sub get_log_file {$/;"	s
+get_log_file	retry.pl	/^sub get_log_file {$/;"	s
+get_ngram_stats	lang/limit_arpa_unk_history.py	/^def get_ngram_stats(old_lm_lines):$/;"	f
+get_pair_statistics	lang/bpe/learn_bpe.py	/^def get_pair_statistics(vocab):$/;"	f
+get_pairs	lang/bpe/apply_bpe.py	/^def get_pairs(word):$/;"	f
+get_suffix	lang/make_subword_lexicon_fst.py	/^def get_suffix(phone):$/;"	f
+get_utf8_or_bytestream	lang/validate_lang.pl	/^sub get_utf8_or_bytestream {$/;"	s
+get_utf8_or_bytestream	scoring/wer_ops_details.pl	/^sub get_utf8_or_bytestream {$/;"	s
+get_utf8_or_bytestream	scoring/wer_per_spk_details.pl	/^sub get_utf8_or_bytestream {$/;"	s
+get_utf8_or_bytestream	scoring/wer_per_utt_details.pl	/^sub get_utf8_or_bytestream {$/;"	s
+get_utf8_or_bytestream	validate_dict_dir.pl	/^sub get_utf8_or_bytestream {$/;"	s
+get_utf8_or_bytestream	validate_lang.pl	/^sub get_utf8_or_bytestream {$/;"	s
+get_utf8_or_bytestream	validate_text.pl	/^sub get_utf8_or_bytestream {$/;"	s
+get_vocabulary	lang/bpe/learn_bpe.py	/^def get_vocabulary(fobj, is_dict=False):$/;"	f
+h_ngram	reverse_arpa.py	/^      h_ngram = " ".join(words[n-x:]) # shortened history$/;"	v
+handler	ctm/resolve_ctm_overlaps.py	/^handler = logging.StreamHandler()$/;"	v
+handler	data/perturb_speed_to_allowed_lengths.py	/^handler = logging.StreamHandler()$/;"	v
+help	data/extend_segment_times.py	/^                    help="Amount of padding, in seconds, for the end time of "$/;"	v
+help	data/extend_segment_times.py	/^                    help="Amount of padding, in seconds, for the start time of "$/;"	v
+help	data/extend_segment_times.py	/^                    help="If true, prevent segments from overlapping as a result "$/;"	v
+help	data/internal/choose_utts_to_combine.py	/^                    help="Filename of [input] speaker to utterance map needed "$/;"	v
+help	data/internal/choose_utts_to_combine.py	/^                    help="Filename of [input] utterance-to-duration map, with lines like 'utt1 1.23'.")$/;"	v
+help	data/internal/choose_utts_to_combine.py	/^                    help="Filename of [output] new-utterance-to-old-utterances map, with lines "$/;"	v
+help	data/internal/choose_utts_to_combine.py	/^                    help="Filename of [output] utt2dur map, which is just the summations of "$/;"	v
+help	data/internal/choose_utts_to_combine.py	/^                    help="Filename of [output] utt2spk map, which maps new utterances to original "$/;"	v
+help	data/internal/choose_utts_to_combine.py	/^                    help="Minimum utterance duration")$/;"	v
+help	data/internal/modify_speaker_info.py	/^                    help="Maximum number of utterances allowed per speaker")$/;"	v
+help	lang/compute_sentence_probs_arpa.py	/^                    help="Filename of input text file (each line will be interpreted as a sentence).")$/;"	v
+help	lang/compute_sentence_probs_arpa.py	/^                    help="Filename of output probability file.")$/;"	v
+help	lang/compute_sentence_probs_arpa.py	/^                    help="Input language model in arpa form.")$/;"	v
+help	lang/compute_sentence_probs_arpa.py	/^                    help="Log base for log porbability")$/;"	v
+help	lang/compute_sentence_probs_arpa.py	/^                    help="Order of ngram")$/;"	v
+help	lang/internal/arpa2fst_constrained.py	/^                    help = "A file containing the list of allowed bigram pairs.  "$/;"	v
+help	lang/internal/arpa2fst_constrained.py	/^                    help = 'Disambiguation symbol (e.g. #0), '$/;"	v
+help	lang/internal/arpa2fst_constrained.py	/^                    help = 'The input ARPA file (must not be gzipped)')$/;"	v
+help	lang/internal/modify_unk_pron.py	/^                    help = "The printed form of the unknown\/OOV word, normally '<unk>'.")$/;"	v
+help	lang/internal/modify_unk_pron.py	/^                    help = 'Filename of the lexicon file to operate on (this is '$/;"	v
+help	lang/make_phone_lm.py	/^                    help = "If true, print LM in ARPA format (default is to print "$/;"	v
+help	lang/make_phone_lm.py	/^                    help = "Integer corresponding to an otherwise-unused "$/;"	v
+help	lang/make_phone_lm.py	/^                    help = "Order of n-gram to use (but see also --num-extra-states;"$/;"	v
+help	lang/make_phone_lm.py	/^                    help = "Target number of n-grams in addition to the n-grams in "$/;"	v
+help	lang/make_phone_lm.py	/^                    help = "This specifies the n-gram order at which (and below which) "$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Clipping cell values during propagation (per-frame) [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Clipping partial-derivatives during BPTT (per-frame) [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Clipping partial-derivatives of "cells" during BPTT (per-frame, those accumulated by CEC) [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Clipping the accumulated gradients (per-updates) [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Dim reduction for one direction in BLSTM (last BLSTM component) [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Dim reduction for one direction in BLSTM [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Number of BLSTM layers [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Number of cells for one direction in BLSTM [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Range of initial BLSTM parameters [default: %default]');$/;"	v
+help	nnet/make_blstm_proto.py	/^                   help='Standard deviation for initial weights of Softmax layer [default: %default]');$/;"	v
+help	nnet/make_cnn_proto.py	/^		   help='Number of filters in first convolutional layer [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		   help='Number of filters in second convolutional layer [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Dim of convolutional kernel in 1st layer (freq. axis) [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Dim of convolutional kernel in 2nd layer (freq. axis) [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Directory, where network prototypes will be saved [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Length of splice [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Number of features representing pitch [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Number of neurons in layers processing pitch features [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Order of delta features [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Patch step of first convolutional layer [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Step of pooling [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^		  help='Type of pooling (Max || Average) [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^	  	   help='Size of pooling [default: %default]',$/;"	v
+help	nnet/make_cnn_proto.py	/^                   help='Select type of activation function : (<Sigmoid>|<Tanh>) [default: %default]', $/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Clipping cell values during propagation (per-frame) [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Clipping partial-derivatives during BPTT (per-frame) [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Clipping partial-derivatives of "cells" during BPTT (per-frame, those accumulated by CEC) [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Clipping the accumulated gradients (per-updates) [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Number of LSTM layers [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Number of LSTM recurrent units [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Number of cells for one direction in LSTM [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Range of initial LSTM parameters [default: %default]');$/;"	v
+help	nnet/make_lstm_proto.py	/^                   help='Standard deviation for initial weights of Softmax layer [default: %default]');$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Add <Dropout> after the non-linearity of hidden layer.',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Additional options for protoype of activation function [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Additional options for protoype of affine tranform [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Disable 1\/12 reduction of stddef in input layer [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Disable smaller initial weights and learning rate around bottleneck',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Do not put <SoftMax> in the prototype [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Extra options for dropout [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Factor to rescale Normal distriburtion for initalizing weight matrices [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Generate <BlockSoftmax> with dims D1:D2:D3 [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Generate normalized weights according to X.Glorot paper, but mapping U->N with same variance (factor sqrt(x\/(dim_in+dim_out)))',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Make bottleneck network with desired bn-dim (0 = no bottleneck) [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Max radius of neuron-weights in L2 space (if longer weights get shrinked, not applied to last layer, 0.0 = disable) [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Select type of activation function : (<Sigmoid>|<Tanh>|<ParametricRelu>) [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Set bias for hidden activations [default: %default]',$/;"	v
+help	nnet/make_nnet_proto.py	/^                   help='Set bias range for hidden activations (+\/- 1\/2 range around mean) [default: %default]',$/;"	v
+in_stream	lang/bpe/reverse.py	/^in_stream = io.TextIOWrapper(sys.stdin.buffer, encoding='utf-8')$/;"	v
+ind	reverse_arpa.py	/^  ind = text.split("=")$/;"	v
+inf	reverse_arpa.py	/^inf=float("inf")$/;"	v
+infile	lang/bpe/prepend_words.py	/^infile = io.TextIOWrapper(sys.stdin.buffer, encoding='latin-1')$/;"	v
+inputdim_of_cnn	nnet/make_cnn_proto.py	/^inputdim_of_cnn = feat_dim$/;"	v
+int2sym	int2sym.pl	/^sub int2sym {$/;"	s
+intersect	lang/validate_lang.pl	/^sub intersect {$/;"	s
+intersect	validate_dict_dir.pl	/^sub intersect {$/;"	s
+intersect	validate_lang.pl	/^sub intersect {$/;"	s
+is_end	lang/make_position_dependent_subword_lexicon.py	/^def is_end(subword, separator):$/;"	f
+is_end	lang/make_subword_lexicon_fst.py	/^def is_end(word, separator):$/;"	f
+is_logprob	lang/compute_sentence_probs_arpa.py	/^def is_logprob(input):$/;"	f
+is_token	lang/make_lexicon_fst.py	/^def is_token(s):$/;"	f
+isolate_glossary	lang/bpe/apply_bpe.py	/^def isolate_glossary(word, glossary):$/;"	f
+key	data/extend_segment_times.py	/^                          key = lambda x : 0.5 * (x[2] + x[3]))$/;"	v
+keys	reverse_arpa.py	/^  keys = sorted(ngrams[n-1].keys())$/;"	v
+l_ngram	reverse_arpa.py	/^      l_ngram = " ".join(words[:x]) # shortened ngram$/;"	v
+lexicon_in	lang/internal/modify_unk_pron.py	/^    lexicon_in = open(args.lexicon_file, 'r')$/;"	v
+lexicon_out	lang/internal/modify_unk_pron.py	/^    lexicon_out = open(args.lexicon_file, 'w')$/;"	v
+line	data/extend_segment_times.py	/^    line = sys.stdin.readline()$/;"	v
+line	data/internal/choose_utts_to_combine.py	/^    line = f.readline()$/;"	v
+line	data/internal/modify_speaker_info.py	/^            line = f.readline()$/;"	v
+line	data/internal/modify_speaker_info.py	/^    line = sys.stdin.readline()$/;"	v
+line	lang/bpe/bidi.py	/^    line = line.strip()$/;"	v
+line	lang/bpe/bidi.py	/^    line = utf8_logical_to_visual(line)[::-1]$/;"	v
+line	lang/internal/modify_unk_pron.py	/^    line = lexicon_in.readline()$/;"	v
+ljustify	scoring/wer_per_utt_details.pl	/^sub ljustify {$/;"	s
+load_model	lang/compute_sentence_probs_arpa.py	/^def load_model(model_file):$/;"	f
+logger	ctm/resolve_ctm_overlaps.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	data/perturb_speed_to_allowed_lengths.py	/^logger = logging.getLogger('libs')$/;"	v
+longest_spk_dur	data/internal/choose_utts_to_combine.py	/^                        longest_spk_dur = spk2dur[this_spk]$/;"	v
+longest_spk_dur	data/internal/choose_utts_to_combine.py	/^                longest_spk_dur = -1.0$/;"	v
+lstm_extra_opts	nnet/make_blstm_proto.py	/^lstm_extra_opts=""$/;"	v
+lstm_extra_opts	nnet/make_lstm_proto.py	/^lstm_extra_opts=""$/;"	v
+main	ctm/resolve_ctm_overlaps.py	/^def main():$/;"	f
+main	data/get_uniform_subsegments.py	/^def main():$/;"	f
+main	data/internal/combine_segments_to_recording.py	/^def main():$/;"	f
+main	data/internal/perturb_volume.py	/^def main():$/;"	f
+main	data/perturb_speed_to_allowed_lengths.py	/^def main():$/;"	f
+main	lang/bpe/learn_bpe.py	/^def main(infile, outfile, num_symbols, min_frequency=2, verbose=False, is_dict=False):$/;"	f
+main	lang/grammar/augment_phones_txt.py	/^def main():$/;"	f
+main	lang/grammar/augment_words_txt.py	/^def main():$/;"	f
+main	lang/limit_arpa_unk_history.py	/^def main():$/;"	f
+main	lang/make_lexicon_fst.py	/^def main():$/;"	f
+main	lang/make_lexicon_fst_silprob.py	/^def main():$/;"	f
+main	lang/make_position_dependent_subword_lexicon.py	/^def main():$/;"	f
+main	lang/make_subword_lexicon_fst.py	/^def main():$/;"	f
+max	scoring/wer_ops_details.pl	/^sub max {$/;"	s
+max_time	data/extend_segment_times.py	/^    max_time = max([ x[3] for x in this_entries ]) + args.last_segment_end_padding$/;"	v
+merge_segments	segmentation.pl	/^sub merge_segments() {$/;"	s
+midpoint	data/extend_segment_times.py	/^            midpoint = 0.5 * (this_end_time + next_start_time)$/;"	v
+min_time	data/extend_segment_times.py	/^    min_time = 0$/;"	v
+n	reverse_arpa.py	/^  n = read_n$/;"	v
+n	reverse_arpa.py	/^n=0$/;"	v
+new_utt	data/internal/choose_utts_to_combine.py	/^            new_utt = utt_group_names[i]$/;"	v
+next_start_time	data/extend_segment_times.py	/^        next_start_time = this_entries[n+1][2]$/;"	v
+ngram	reverse_arpa.py	/^    ngram = " ".join(words)$/;"	v
+ngram_counts	lang/make_kn_lm.py	/^    ngram_counts = NgramCounts(args.ngram_order)$/;"	v	class:NgramCounts
+ngram_counts	lang/make_phone_lm.py	/^ngram_counts = NgramCounts(args.ngram_order)$/;"	v
+ngrams	reverse_arpa.py	/^ngrams=[]$/;"	v
+num_patch1	nnet/make_cnn_proto.py	/^num_patch1 = 1 + (feat_raw_dim - o.patch_dim1) \/ o.patch_step1$/;"	v
+num_patch2	nnet/make_cnn_proto.py	/^num_patch2 = 1 + (num_pool - patch_dim2) \/ patch_step2$/;"	v
+num_pool	nnet/make_cnn_proto.py	/^num_pool = 1 + (num_patch1 - o.pool_size) \/ o.pool_step$/;"	v
+num_times_fixed	data/extend_segment_times.py	/^num_times_fixed = 0$/;"	v
+offset	reverse_arpa.py	/^          offset = revprob # remember <s> weight$/;"	v
+offset	reverse_arpa.py	/^offset = 0.0$/;"	v
+options	apply_map.pl	/^ options: [-f <field-range> ] [--permissive]$/;"	l
+or	split_scp.pl	/^   or: split_scp.pl -j num-jobs job-id [--one-based] [--utt2spk=<utt2spk_file>] [--utt2dur=<utt2dur_file>] in.scp [out.scp]$/;"	l
+out_stream	lang/bpe/reverse.py	/^out_stream = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')$/;"	v
+output	lang/bpe/prepend_words.py	/^output = io.TextIOWrapper(sys.stdout.buffer, encoding='latin-1')$/;"	v
+output_result	lang/compute_sentence_probs_arpa.py	/^def output_result(text_in_handle, output_file_handle, ngram_order):$/;"	f
+outputdim_of_cnn	nnet/make_cnn_proto.py	/^outputdim_of_cnn = o.num_filters2*num_patch2$/;"	v
+p_l	reverse_arpa.py	/^      p_l = ngrams[x-1][l_ngram][0]$/;"	v
+p_r	reverse_arpa.py	/^      p_r = ngrams[x-1][r_ngram][0]$/;"	v
+parse_accounting_entry	summarize_logs.pl	/^sub parse_accounting_entry {$/;"	s
+parser	lang/bpe/apply_bpe.py	/^    parser = create_parser()$/;"	v
+parser	lang/bpe/learn_bpe.py	/^    parser = create_parser()$/;"	v
+parser	lang/compute_sentence_probs_arpa.py	/^parser = argparse.ArgumentParser(description="This script evaluates the log probabilty (default log base is e) of each sentence "$/;"	v
+parser	lang/limit_arpa_unk_history.py	/^parser = argparse.ArgumentParser($/;"	v
+parser	nnet/gen_dct_mat.py	/^parser = OptionParser()$/;"	v
+parser	nnet/gen_hamm_mat.py	/^parser = OptionParser()$/;"	v
+parser	nnet/gen_splice.py	/^parser = OptionParser()$/;"	v
+parser	nnet/make_blstm_proto.py	/^parser = OptionParser(usage)$/;"	v
+parser	nnet/make_cnn_proto.py	/^parser = OptionParser(usage)$/;"	v
+parser	nnet/make_lstm_proto.py	/^parser = OptionParser(usage)$/;"	v
+parser	nnet/make_nnet_proto.py	/^parser = OptionParser(usage)$/;"	v
+partial_diff	data/validate_data_dir.sh	/^function partial_diff {$/;"	f
+partial_diff	validate_data_dir.sh	/^function partial_diff {$/;"	f
+patch_dim2	nnet/make_cnn_proto.py	/^patch_dim2 = o.patch_dim2$/;"	v
+patch_step2	nnet/make_cnn_proto.py	/^patch_step2 = o.patch_step1$/;"	v
+patch_stride2	nnet/make_cnn_proto.py	/^patch_stride2 = num_pool # same as layer1 outputs $/;"	v
+perturb_utterances	data/perturb_speed_to_allowed_lengths.py	/^def perturb_utterances(utterances, allowed_durations, args):$/;"	f
+print_arc	lang/make_subword_lexicon_fst.py	/^def print_arc(src, dest, phone, word, cost):$/;"	f
+print_as_arpa	lang/make_kn_lm.py	/^    def print_as_arpa(self, fout=io.TextIOWrapper(sys.stdout.buffer, encoding='latin-1')):$/;"	m	class:NgramCounts
+print_f	lang/make_kn_lm.py	/^    def print_f(self, info_string):$/;"	m	class:NgramCounts
+print_f_and_bow	lang/make_kn_lm.py	/^    def print_f_and_bow(self, info_string):$/;"	m	class:NgramCounts
+print_header	scoring/wer_per_spk_details.pl	/^sub print_header {$/;"	s
+print_line	scoring/wer_ops_details.pl	/^sub print_line {$/;"	s
+print_modified_counts	lang/make_kn_lm.py	/^    def print_modified_counts(self, info_string):$/;"	m	class:NgramCounts
+print_on_same_line	nnet/gen_dct_mat.py	/^def print_on_same_line(text):$/;"	f
+print_on_same_line	nnet/gen_hamm_mat.py	/^def print_on_same_line(text):$/;"	f
+print_on_same_line	nnet/gen_splice.py	/^def print_on_same_line(text):$/;"	f
+print_raw_counts	lang/make_kn_lm.py	/^    def print_raw_counts(self, info_string):$/;"	m	class:NgramCounts
+print_segments	segmentation.pl	/^sub print_segments {$/;"	s
+print_usage	parallel/pbs.pl	/^sub print_usage() {$/;"	s
+print_usage	parallel/queue.pl	/^sub print_usage() {$/;"	s
+print_usage	parallel/retry.pl	/^sub print_usage() {$/;"	s
+print_usage	parallel/slurm.pl	/^sub print_usage() {$/;"	s
+print_usage	pbs.pl	/^sub print_usage() {$/;"	s
+print_usage	queue.pl	/^sub print_usage() {$/;"	s
+print_usage	retry.pl	/^sub print_usage() {$/;"	s
+print_usage	slurm.pl	/^sub print_usage() {$/;"	s
+prob	reverse_arpa.py	/^      prob = 0.0$/;"	v
+prob	reverse_arpa.py	/^    prob = float(entry[0])$/;"	v
+prob	reverse_arpa.py	/^    prob = ngrams[n-1][ngram]$/;"	v
+process_line	lang/bpe/apply_bpe.py	/^    def process_line(self, line):$/;"	m	class:BPE
+prune_stats	lang/bpe/learn_bpe.py	/^def prune_stats(stats, big_stats, threshold):$/;"	f
+r	reverse_arpa.py	/^  r = ind[0].split()$/;"	v
+r_ngram	reverse_arpa.py	/^      r_ngram = " ".join(words[1:1+x]) # shortened ngram with offset one$/;"	v
+read_ctm	ctm/resolve_ctm_overlaps.py	/^def read_ctm(ctm_file, segments):$/;"	f
+read_kaldi_datadir	data/perturb_speed_to_allowed_lengths.py	/^def read_kaldi_datadir(dir):$/;"	f
+read_kaldi_mapfile	data/perturb_speed_to_allowed_lengths.py	/^def read_kaldi_mapfile(path):$/;"	f
+read_left_context_phones	lang/make_lexicon_fst.py	/^def read_left_context_phones(filename):$/;"	f
+read_left_context_phones	lang/make_lexicon_fst_silprob.py	/^def read_left_context_phones(filename):$/;"	f
+read_lexiconp	lang/make_lexicon_fst.py	/^def read_lexiconp(filename):$/;"	f
+read_lexiconp	lang/make_lexicon_fst_silprob.py	/^def read_lexiconp(filename):$/;"	f
+read_n	reverse_arpa.py	/^  read_n = int(r[1].strip())$/;"	v
+read_nonterminals	lang/grammar/augment_phones_txt.py	/^def read_nonterminals(filename):$/;"	f
+read_nonterminals	lang/grammar/augment_words_txt.py	/^def read_nonterminals(filename):$/;"	f
+read_nonterminals	lang/make_lexicon_fst.py	/^def read_nonterminals(filename):$/;"	f
+read_nonterminals	lang/make_lexicon_fst_silprob.py	/^def read_nonterminals(filename):$/;"	f
+read_old_lm	lang/limit_arpa_unk_history.py	/^def read_old_lm():$/;"	f
+read_phones_txt	lang/grammar/augment_phones_txt.py	/^def read_phones_txt(filename):$/;"	f
+read_reco2vol	data/internal/perturb_volume.py	/^def read_reco2vol(volumes_file):$/;"	f
+read_segments	ctm/resolve_ctm_overlaps.py	/^def read_segments(segments_file):$/;"	f
+read_silprobs	lang/make_lexicon_fst_silprob.py	/^def read_silprobs(filename):$/;"	f
+read_vocabulary	lang/bpe/apply_bpe.py	/^def read_vocabulary(vocab_file, threshold):$/;"	f
+read_words_txt	lang/grammar/augment_words_txt.py	/^def read_words_txt(filename):$/;"	f
+recording_to_utt_indexes	data/extend_segment_times.py	/^recording_to_utt_indexes = defaultdict(list)$/;"	v
+recursive_split	lang/bpe/apply_bpe.py	/^def recursive_split(segment, bpe_codes, vocab, separator, final=False):$/;"	f
+remove_noise_only_segments	segmentation.pl	/^sub remove_noise_only_segments {$/;"	s
+replace_pair	lang/bpe/learn_bpe.py	/^def replace_pair(pair, vocab, indices):$/;"	f
+resolve_overlaps	ctm/resolve_ctm_overlaps.py	/^def resolve_overlaps(ctms, segments):$/;"	f
+rev_ngram	reverse_arpa.py	/^    rev_ngram = rstr.replace("<s>","<temp>").replace("<\/s>","<s>").replace("<temp>","<\/s>")$/;"	v
+revprob	reverse_arpa.py	/^          revprob = revprob + offset # add <s> weight to bigrams starting with <s>$/;"	v
+revprob	reverse_arpa.py	/^          revprob = sentprob # apply <s> weight from forward model$/;"	v
+revprob	reverse_arpa.py	/^      revprob = revprob + p_l$/;"	v
+revprob	reverse_arpa.py	/^      revprob = revprob + prob[1]$/;"	v
+revprob	reverse_arpa.py	/^      revprob = revprob - p_r$/;"	v
+revprob	reverse_arpa.py	/^    revprob = prob[0]$/;"	v
+rjustify	scoring/wer_per_utt_details.pl	/^sub rjustify {$/;"	s
+rstr	reverse_arpa.py	/^    rstr = " ".join(reversed(words))$/;"	v
+rtl_set	lang/bpe/bidi.py	/^rtl_set =  set(chr(i) for i in range(sys.maxunicode)$/;"	v
+run	ctm/resolve_ctm_overlaps.py	/^def run(args):$/;"	f
+run	data/get_uniform_subsegments.py	/^def run(args):$/;"	f
+run	data/internal/perturb_volume.py	/^def run(args):$/;"	f
+s	eps2disambig.pl	/^  s:^(\\d+\\s+\\d+\\s+)\\<eps\\>(\\s+):$1#0$2:;$/;"	l
+segment	lang/bpe/apply_bpe.py	/^    def segment(self, sentence):$/;"	m	class:BPE
+select_n	subset_scp.pl	/^sub select_n {$/;"	s
+sentprob	reverse_arpa.py	/^      sentprob = prob$/;"	v
+sentprob	reverse_arpa.py	/^sentprob = 0.0 # sentence begin unigram$/;"	v
+set_silence_proportion	segmentation.pl	/^sub set_silence_proportion {$/;"	s
+set_to_fail	validate_dict_dir.pl	/^sub set_to_fail { $exit = 1; $success = 0; }$/;"	s
+softmax_affine_opts	nnet/make_blstm_proto.py	/^softmax_affine_opts=""$/;"	v
+softmax_affine_opts	nnet/make_lstm_proto.py	/^softmax_affine_opts=""$/;"	v
+spk	data/internal/choose_utts_to_combine.py	/^                        spk = this_spk$/;"	v
+spk	data/internal/choose_utts_to_combine.py	/^                spk = None$/;"	v
+spk	data/internal/choose_utts_to_combine.py	/^                spk = spk_list[0]$/;"	v
+spk	data/internal/choose_utts_to_combine.py	/^    spk = a[0]$/;"	v
+spk2dur	data/internal/choose_utts_to_combine.py	/^                spk2dur = defaultdict(float)$/;"	v
+spk2utt	data/internal/choose_utts_to_combine.py	/^spk2utt = []$/;"	v
+spk2utt	data/internal/modify_speaker_info.py	/^spk2utt = defaultdict(lambda: [])$/;"	v
+spk_list	data/internal/choose_utts_to_combine.py	/^            spk_list = [ utt2spk[utt] for utt in utt_group ]$/;"	v
+splice	nnet/gen_dct_mat.py	/^splice=int(options.splice)$/;"	v
+splice	nnet/gen_hamm_mat.py	/^splice=int(options.splice)$/;"	v
+splice	nnet/gen_splice.py	/^splice=int(options.splice)$/;"	v
+splice_step	nnet/gen_splice.py	/^splice_step=int(options.splice_step)$/;"	v
+splice_vec	nnet/gen_splice.py	/^splice_vec = list(range(-splice*splice_step, splice*splice_step+1, splice_step))$/;"	v
+split_hundreds	summarize_logs.pl	/^sub split_hundreds { # split list of filenames into groups of 100.$/;"	s
+split_hundreds	summarize_warnings.pl	/^sub split_hundreds { # split list of filenames into groups of 100.$/;"	s
+split_lines	lang/internal/modify_unk_pron.py	/^split_lines = []$/;"	v
+split_long_segments	segmentation.pl	/^sub split_long_segments {$/;"	s
+start_padding	data/extend_segment_times.py	/^    start_padding = args.start_padding$/;"	v
+start_time	data/extend_segment_times.py	/^        start_time = float(start_time)$/;"	v
+strip_chars	lang/make_kn_lm.py	/^strip_chars = " \\t\\r\\n"$/;"	v
+text	reverse_arpa.py	/^      text=file.readline()$/;"	v
+text	reverse_arpa.py	/^    text=file.readline()$/;"	v
+text	reverse_arpa.py	/^  text=file.readline()$/;"	v
+text	reverse_arpa.py	/^text=file.readline()$/;"	v
+this_end_time	data/extend_segment_times.py	/^        this_end_time = this_entries[n][3]$/;"	v
+this_entries	data/extend_segment_times.py	/^    this_entries = sorted([ entries[x] for x in utt_indexes ],$/;"	v
+this_ngrams	reverse_arpa.py	/^  this_ngrams={} # stores all read ngrams$/;"	v
+this_spk	data/internal/modify_speaker_info.py	/^            this_spk = format_string % (spk, i + 1)$/;"	v
+this_spk	data/internal/modify_speaker_info.py	/^        this_spk = format_string % (i + 1)$/;"	v
+this_split_line	lang/internal/modify_unk_pron.py	/^    this_split_line = line.split()$/;"	v
+timeContext	nnet/gen_dct_mat.py	/^timeContext=2*splice+1$/;"	v
+timeContext	nnet/gen_hamm_mat.py	/^timeContext=2*splice+1$/;"	v
+to_kaldi_dur_str	data/perturb_speed_to_allowed_lengths.py	/^    def to_kaldi_dur_str(self):$/;"	m	class:Utterance
+to_kaldi_utt_str	data/perturb_speed_to_allowed_lengths.py	/^    def to_kaldi_utt_str(self):$/;"	m	class:Utterance
+to_kaldi_wave_str	data/perturb_speed_to_allowed_lengths.py	/^    def to_kaldi_wave_str(self):$/;"	m	class:Utterance
+unk_index	lang/internal/modify_unk_pron.py	/^        unk_index = len(split_lines)$/;"	v
+unk_index	lang/internal/modify_unk_pron.py	/^unk_index = -1$/;"	v
+update_pair_statistics	lang/bpe/learn_bpe.py	/^def update_pair_statistics(pair, changed, stats, indices):$/;"	f
+usage	nnet/make_blstm_proto.py	/^usage="%prog [options] <feat-dim> <num-leaves> >nnet-proto-file"$/;"	v
+usage	nnet/make_cnn_proto.py	/^usage="%prog [options] <feat-dim> <num-leaves> <num-hidden-layers> <num-hidden-neurons>  >nnet-proto-file"$/;"	v
+usage	nnet/make_lstm_proto.py	/^usage="%prog [options] <feat-dim> <num-leaves> >nnet-proto-file"$/;"	v
+usage	nnet/make_nnet_proto.py	/^usage="%prog [options] <feat-dim> <num-leaves> <num-hid-layers> <num-hid-neurons> >nnet-proto-file"$/;"	v
+utf8_logical_to_visual	lang/bpe/bidi.py	/^def utf8_logical_to_visual(text):$/;"	f
+utf8_visual_to_logical	lang/bpe/bidi.py	/^def utf8_visual_to_logical(text):$/;"	f
+utt2dur	data/internal/choose_utts_to_combine.py	/^utt2dur = dict()$/;"	v
+utt2dur	data/internal/modify_speaker_info.py	/^    utt2dur = dict()$/;"	v
+utt2spk	data/internal/choose_utts_to_combine.py	/^utt2spk = dict()$/;"	v
+utt2spk	data/internal/modify_speaker_info.py	/^utt2spk = dict()$/;"	v
+utt_group	data/internal/choose_utts_to_combine.py	/^            utt_group = utt_groups[i]$/;"	v
+utt_group_names	data/internal/choose_utts_to_combine.py	/^utt_group_names = [ group[0] if len(group)==1 else "{0}-comb{1}".format(group[0], len(group))$/;"	v
+utt_groups	data/internal/choose_utts_to_combine.py	/^utt_groups = GetUtteranceGroups(args.min_duration, spk2utt, utt2dur)$/;"	v
+utt_name	data/internal/choose_utts_to_combine.py	/^            utt_name = utt_group_names[i]$/;"	v
+uttlists	data/internal/modify_speaker_info.py	/^        uttlists = SplitIntoGroups(spk2utt[spk])$/;"	v
+uttlists	data/internal/modify_speaker_info.py	/^    uttlists = SplitIntoGroups(sorted(utt2spk.keys()))$/;"	v
+utts	data/internal/choose_utts_to_combine.py	/^    utts = a[1:]$/;"	v
+validate_utf8_whitespaces	lang/validate_lang.pl	/^sub validate_utf8_whitespaces {$/;"	s
+validate_utf8_whitespaces	validate_dict_dir.pl	/^sub validate_utf8_whitespaces {$/;"	s
+validate_utf8_whitespaces	validate_lang.pl	/^sub validate_utf8_whitespaces {$/;"	s
+validate_utf8_whitespaces	validate_text.pl	/^sub validate_utf8_whitespaces {$/;"	s
+vector	nnet/make_cnn_proto.py	/^  vector = ''$/;"	v
+vocab	filt.py	/^vocab=set()$/;"	v
+vocabulary	lang/bpe/apply_bpe.py	/^        vocabulary = None$/;"	v
+vocabulary	lang/bpe/apply_bpe.py	/^        vocabulary = read_vocabulary(args.vocabulary, args.vocabulary_threshold)$/;"	v
+whitespace	lang/bpe/prepend_words.py	/^whitespace = re.compile("[ \\t]+")$/;"	v
+whitespace	lang/make_kn_lm.py	/^whitespace = re.compile("[ \\t]+")$/;"	v
+words	lang/bpe/prepend_words.py	/^    words = whitespace.split(line.strip(" \\t\\r\\n"))$/;"	v
+words	lang/make_kn_lm.py	/^    def words(self):$/;"	m	class:CountsForHistory
+words	reverse_arpa.py	/^      words = entry[1:]$/;"	v
+words	reverse_arpa.py	/^      words = entry[1:n+1]$/;"	v
+words	reverse_arpa.py	/^    words = ngram.split()$/;"	v
+write_ctm	ctm/resolve_ctm_overlaps.py	/^def write_ctm(ctm_lines, out_file):$/;"	f
+write_fst	lang/make_lexicon_fst_silprob.py	/^def write_fst(lexicon, silprobs, sil_phone, sil_disambig,$/;"	f
+write_fst_no_silence	lang/make_lexicon_fst.py	/^def write_fst_no_silence(lexicon, nonterminals=None, left_context_phones=None):$/;"	f
+write_fst_no_silence	lang/make_subword_lexicon_fst.py	/^def write_fst_no_silence(lexicon, position_dependent, separator):$/;"	f
+write_fst_with_silence	lang/make_lexicon_fst.py	/^def write_fst_with_silence(lexicon, sil_prob, sil_phone, sil_disambig,$/;"	f
+write_fst_with_silence	lang/make_subword_lexicon_fst.py	/^def write_fst_with_silence(lexicon, sil_phone, sil_prob, sil_disambig, position_dependent, separator):$/;"	f
+write_new_lm	lang/limit_arpa_unk_history.py	/^def write_new_lm(new_lm_lines, ngram_counts, ngram_diffs):$/;"	f
+write_nonterminal_arcs	lang/make_lexicon_fst.py	/^def write_nonterminal_arcs(start_state, loop_state, next_state,$/;"	f
+write_nonterminal_arcs	lang/make_lexicon_fst_silprob.py	/^def write_nonterminal_arcs(start_state, sil_state, non_sil_state,$/;"	f
+write_phones_txt	lang/grammar/augment_phones_txt.py	/^def write_phones_txt(orig_lines, highest_numbered_symbol, nonterminals, filename):$/;"	f
+write_position_dependent_lexicon	lang/make_position_dependent_subword_lexicon.py	/^def write_position_dependent_lexicon(lexiconp, separator):$/;"	f
+write_words_txt	lang/grammar/augment_words_txt.py	/^def write_words_txt(orig_lines, highest_numbered_symbol, nonterminals, filename):$/;"	f
+write_words_txt	lang/make_lexicon_fst.py	/^def write_words_txt(orig_lines, highest_numbered_symbol, nonterminals, filename):$/;"	f

@@ -8,6 +8,7 @@ import kaldi_io as ko
 For CNN+GRU where it loads one utterance at a time 
 """
 
+
 class SpoofDataset(data.Dataset):
     """PyTorch dataset that reads kaldi feature
     """
@@ -28,5 +29,4 @@ class SpoofDataset(data.Dataset):
         tensor = ako.read_mat_key(self.scp_file, utt_id)
         X = np.expand_dims(tensor, axis=0)
         y = self.utt2label[utt_id]
-        
         return utt_id, X, y
